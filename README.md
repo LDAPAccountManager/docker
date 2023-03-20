@@ -28,3 +28,13 @@ In case you need to provision from scratch please download the tar.bz2 file firs
 Example for publishing LAM via e.g. jwilder/nginx-proxy proxy.
 
 docker run --name lam.example.com --hostname lam.example.com --env VIRTUAL_HOST=lam.example.com --env VIRTUAL_PORT=80 --expose 80 ghcr.io/ldapaccountmanager/lam:stable
+
+## LAM Pro:
+
+Please request access at support for Azure.
+
+docker login lampro.azurecr.io
+
+docker pull lampro.azurecr.io/lampro
+
+docker run -p 8080:80 -it -d lampro.azurecr.io/lampro:stable
