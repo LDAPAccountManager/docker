@@ -28,7 +28,7 @@ Example for publishing LAM via e.g. jwilder/nginx-proxy proxy.
 
 docker run --name lam.example.com --hostname lam.example.com --env VIRTUAL_HOST=lam.example.com --env VIRTUAL_PORT=80 --expose 80 ghcr.io/ldapaccountmanager/lam:stable
 
-## LAM Pro:
+## LAM Pro
 
 Please request access at support for Azure.
 
