@@ -12,7 +12,6 @@ You can change the port 8080 if needed.
 
 Configuration files are stored in:
 
-    /etc/ldap-account-manager
     /var/lib/ldap-account-manager
 
 See possible environment variables here: https://github.com/LDAPAccountManager/lam/blob/develop/lam-packaging/docker/.env
